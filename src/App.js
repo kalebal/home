@@ -34,7 +34,12 @@ function App() {
             onClick={() => executeScroll("expRef")}>
               03. Contact
             </button></li>
-          <li className="nav-li"> Resume </li>
+          <li className="nav-li primary-button">
+            <a href="lib/resume.pdf"
+            target="_blank"
+            type="application/pdf">
+              Resume
+            </a></li>
         </ul>
       </div>
       <Header contactRef={refs.contactRef}/>
