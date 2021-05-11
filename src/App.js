@@ -35,7 +35,8 @@ function App() {
               03. Contact
             </button></li>
           <li className="nav-li primary-button">
-            <a href="lib/resume.pdf"
+            <a href="https://github.com/kalebal/home/blob/eb88cbe66324d927e5fefedbf3df3cc045c12190/src/lib/resume.pdf"
+            rel="noreferrer"
             target="_blank"
             type="application/pdf">
               Resume
