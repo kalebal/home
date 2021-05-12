@@ -19,7 +19,8 @@ export default function About({ refProp }) {
         </ul>
       </div>
       <div className="photo-container">
-        <img id="profile-picture" alt="" src="http://placeimg.com/640/480/people" />
+        <div id="photo-border"></div>
+        <img id="profile-picture" alt="" src="https://avatars.githubusercontent.com/u/38890546?v=4" />
       </div>
     </section>
   );
