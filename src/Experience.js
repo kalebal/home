@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
-const projects = require('./lib/projects.json');
 
 export default function Experience({ refProp }) {
-  const projectData = JSON.stringify(projects);
-  console.log(projectData);
   return(
     <section id="exp" ref={refProp}>
       <h2> 0.2 Some Things I've Done </h2>
