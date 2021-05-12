@@ -96,9 +96,23 @@ ul {
 #about-text > p {
   line-height: 1.4;
 }
+.photo-container {
+  position: relative;
+  margin: 0.5rem;
+}
 
 #profile-picture {
   max-width: 200px;
+  margin: 1rem;
+}
+#photo-border {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 1.5rem;
+  left: 2rem;
+  border: 1px solid var(--primary-color);
+  z-index: -1;
 }
 
 
@@ -274,6 +288,11 @@ ul {
 
   #about-text p {
     line-height: 150%;
+  }
+
+  #photo-border {
+  width: 85%;
+  left: 2rem;
   }
 
   #exp {
