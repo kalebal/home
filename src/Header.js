@@ -9,7 +9,7 @@ export default function Header({ contactRef }) {
         <p>I build things for the web. </p>
         <p>I’m a software engineer based in the Greensboro, NC area who specializes in building (and sometimes designing) engaging user experiences.
         </p>
-        <button onClick={scroll}> Get in touch </button>
+        <button className="primary-button" onClick={scroll}> Get in touch </button>
       </div>
     </header>
   );
