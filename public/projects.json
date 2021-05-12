@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Catwalk",
+    "description": "A client-facing retail web portal for clothing and acessories.",
+    "list": "[]",
+    "imgs": "[\"https://i.imgur.com/kVpvEhN.png\"]",
+    "link": "https://github.com/kalebal/catwalk"
+  },
+  {
+    "name": "Atelier",
+    "list": "[]",
+    "imgs": "[]",
+    "link": "https://github.com/kalebal/Q-A",
+    "description": "A microservice API delivering user submitted questions and answers about specific clothing products."
+  },
+  {
+    "name": "Park Pack",
+    "list": "[]",
+    "imgs": "[]",
+    "link": "https://github.com/kalebal/parkPack",
+    "description": "Dog park schedule app"
+  },
+  {
+    "name": "Fit Friends",
+    "list": "[]",
+    "imgs": "[]",
+    "link": "https://devpost.com/software/fitfriends-0ohz73",
+    "description": "An app that lets you challenge or work together with your friends to meet a workout goal, all while social distancing."
+  }
+]
