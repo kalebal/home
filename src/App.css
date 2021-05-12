@@ -60,6 +60,7 @@ ul {
   background: linear-gradient(180deg, rgba(13, 40, 49, 1) 0%, rgba(13, 40, 49, 0.73) 64%, rgba(13 ,40 ,49,0.25) 100%);
   border-radius: 1rem;
   width: 100%;
+  z-index: 1;
 }
 
 .nav-ul {
