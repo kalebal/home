@@ -13,7 +13,8 @@ function App() {
     contactRef: useRef(null),
   }
 
-  const executeScroll = (ref) => refs[ref].current.scrollIntoView();
+  //Scrolls down to specific section, ID'd by ref object
+  const executeScroll = (ref) => refs[ref].current.scrollIntoView({behavior: "smooth", block: "center"});
 
   return (
     <div className="App">
@@ -31,11 +32,12 @@ function App() {
             </button></li>
           <li className="nav-li">
             <button
-            onClick={() => executeScroll("expRef")}>
+            onClick={() => executeScroll("contactRef")}>
               03. Contact
             </button></li>
-          <li className="nav-li primary-button">
+          <li className="nav-li">
             <a href="https://github.com/kalebal/home/blob/eb88cbe66324d927e5fefedbf3df3cc045c12190/src/lib/resume.pdf"
+            className="primary-button"
             rel="noreferrer"
             target="_blank"
             type="application/pdf">
