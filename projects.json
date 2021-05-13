@@ -26,5 +26,12 @@
     "imgs": "[]",
     "link": "https://devpost.com/software/fitfriends-0ohz73",
     "description": "An app that lets you challenge or work together with your friends to meet a workout goal, all while social distancing."
+  },
+  {
+    "name": "Three Column Cards",
+    "list": "[]",
+    "imgs": "[\"https://github.com/kalebal/three-column-cards/blob/main/images/ActiveScreenshot.png?raw=true\"]",
+    "link": "https://kalebal.github.io/three-column-cards/",
+    "description": "Responsive UI component for car rental products."
   }
 ]
