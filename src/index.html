@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script
+      src="https://kit.fontawesome.com/23a05dd28a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Kaleb Lyda's Portfolio" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Source+Code+Pro:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kaleb Lyda</title>
+  </head>
+  <body>
+    <div id="root">
+      <div class="App">
+        <div id="nav">
+          <ul id="nav_ul">
+            <li class="nav-li">
+              <button>
+                <a href="#about" class="nav-link"> 01. About </a>
+              </button>
+            </li>
+            <li class="nav-li">
+              <button>
+                <a href="#exp" class="nav-link"> 02. Experience </a>
+              </button>
+            </li>
+            <li class="nav-li">
+              <button class>
+                <a href="#contact" class="nav-link"> 03. Contact </a>
+              </button>
+            </li>
+            <li class="nav-li">
+              <a
+                href="https://github.com/kalebal/home/blob/eb88cbe66324d927e5fefedbf3df3cc045c12190/src/lib/resume.pdf"
+                class="primary-button"
+                rel="noreferrer"
+                target="_blank"
+                type="application/pdf"
+              >
+                Resume
+              </a>
+            </li>
+          </ul>
+        </div>
+        <header>
+          <div id="intro">
+            <p>Hi, my name is</p>
+            <h1>Kaleb Lyda</h1>
+            <p>I build things for the web.</p>
+            <p>
+              I’m a software engineer based in the Greensboro, NC area who
+              specializes in building (and sometimes designing) engaging user
+              experiences.
+            </p>
+            <button class="primary-button">
+              <a href="#bottom"> Get in touch </a>
+            </button>
+          </div>
+        </header>
+        <section id="about">
+          <div id="about-text">
+            <h2>0.1 About Me</h2>
+            <p>
+              Hello! My name is Kaleb Lyda and I enjoy creating beautiful
+              things. My interest in software engineering started in 2018 when I
+              used a Java library called Processing to make sketches for art
+              projects.
+              <br />
+              Now I’m using my background in art to think outside the box when
+              crafting exciting experiences that live on the web.
+              <br />
+              Here’s a few technologies I’ve been using recently:
+            </p>
+            <ul class="about-ul">
+              <li class="about-li">Javascript</li>
+              <li class="about-li">React</li>
+              <li class="about-li">Node.js</li>
+              <li class="about-li">Typescript</li>
+              <li class="about-li">Java</li>
+            </ul>
+          </div>
+          <div class="photo-container">
+            <div id="photo-border"></div>
+            <img
+              id="profile-picture"
+              alt=""
+              src="https://avatars.githubusercontent.com/u/38890546?v=4"
+            />
+          </div>
+        </section>
+        <section id="exp">
+          <h2>0.2 Experience</h2>
+          <div class="exp-container">
+            <div>
+              <h3 class="exp-heading">AltoIRA Web App (2021 - current)</h3>
+              <ul class="exp-ul">
+                <li class="exp-li">React UI Engineer:</li>
+                <li class="exp-li">
+                  Worked in a team of 3 to develop account opening
+                  walkthrough/wizard for financial advisors to support B2B
+                  growth.
+                </li>
+                <li class="exp-li">
+                  Migrated integration testing to Cypress Components tests,
+                  reducing CI/CD billable time.
+                </li>
+                <li class="exp-li">
+                  Collaborated with designers to integrate Storybook and develop
+                  React UI components for company-wide design system.
+                </li>
+              </ul>
+              <h3 class="exp-heading">
+                Alto CryptoIRA Mobile App (2021 - current)
+              </h3>
+              <ul class="exp-ul">
+                <li class="exp-li">React Native Engineer:</li>
+                <li class="exp-li">
+                  Spearheaded react-navigation architecture for v1, including
+                  authentication and feedback workflows.
+                </li>
+                <li class="exp-li">
+                  Integrated Auth0 Web View SDK and ensured compatibility with
+                  SOC2 and OWASP guidelines.
+                </li>
+                <li class="exp-li">
+                  Configured Detox automated E2E testing for Android and iOS,
+                  using an Express server to mock API behaviors and errors.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+          <h2>0.3 Reach out!</h2>
+          <p>
+            Find me on <a href="https://github.com/kalebal">Github</a> and
+            <a href="https://www.linkedin.com/in/kaleb-lyda">LinkedIn</a> or
+            email me at: kaleblyda14 [at] gmail (dot) com
+          </p>
+        </section>
+        <div id="link-twig">
+          <a href="https://github.com/kalebal"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/kaleb-lyda"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <div id="twig"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
