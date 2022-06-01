@@ -4,7 +4,7 @@ This is my personal portfolio page, made with love (and simple HTML/CSS) and hos
 
 ## Check it out!
 
-[See it in action here.](https://kalebal.github.io/home/)
+[See it in action here.](https://kalebal.github.io/)
 
 ## License
 
